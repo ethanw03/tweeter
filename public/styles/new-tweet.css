@@ -1,0 +1,19 @@
+#tweetForm{
+  display: flex;
+  flex-direction: column;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  font-family: 'Bungee';
+}
+#button{
+  background-color: #2f59a8;
+  color: rgba(255, 255, 255, 0.829);
+}
+#tweet-text{
+  opacity: 60%;
+  border: none;
+  border-bottom: 5px solid black;
+}

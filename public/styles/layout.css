@@ -14,13 +14,7 @@ html {
  * Global layout stuff
  */
 
-main {
-  display: flex;
-  width: 90%;
-  align-items: center;
-  justify-content: center;
-  background-color:#f4f1ec;
-}
+
 
 body {
   color: #545149;
@@ -29,7 +23,13 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-
+.container {
+  width: 90%;
+  margin: auto;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  margin-bottom: 15px;
+}
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
