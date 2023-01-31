@@ -7,9 +7,20 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
 
+    <!--Bungee link font 400 Source Sans pro 300,600 + italics-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Source+Sans+Pro:ital,wght@0,300;0,600;1,300;1,600&display=swap" rel="stylesheet">
+    
+    <!-- font awesome linktag -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- App CSS -->
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
-
+    <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/header.css" type="text/css" />
+ 
     <!-- External JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
@@ -18,11 +29,24 @@
   </head>
 
   <body>
-    <!-- Top nav bar (fixed) -->
+    <!-- Top nav bar -->
     <nav>
-      <span>tweeter</span>
+      <span class="title">tweeter</span>
+      <div class="element">
+        Write a new tweet
+        <i class="fas fa-angle-double-down"></i>
+    </div>
     </nav>
 
+    <header>
+      <div class="avatar">
+          <img src="/images/profile-hex.png"> 
+      </div>
+      <br>
+      <div class="avatar-name">
+          <p style="font-size: 45px;"><strong>Ethan &nbsp;</strong>Wong</p>
+      </div>
+  </header>
     <!-- Page-specific (main) content here -->
     <main class="container"></main>
   </body>
