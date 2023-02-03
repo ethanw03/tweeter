@@ -51,7 +51,7 @@
 }
 
 article:hover {
-  transform: scale(1.05, 1);
+  transform: scale(1.02, 1);
   box-shadow: black;
 }
 
