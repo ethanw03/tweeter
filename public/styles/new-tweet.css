@@ -83,6 +83,23 @@ article{
   text-decoration-thickness:initial;
 }
 
-
+@media (min-width: 1024px) {
+  nav{
+    background-color: #083746;
+  }
+  .split{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 10rem; 
+  }
+  .header{
+    width:20%;
+    background: transparent;
+  }
+  .container{
+    width: 50%;
+    margin-right: 3rem;
+  }
+}
 
 
