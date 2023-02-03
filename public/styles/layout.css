@@ -23,12 +23,12 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.container {
+main {
   width: 90%;
+  display: flex;
   margin: auto;
-  padding-top:1rem;
-  padding-bottom:1rem;
-  margin-bottom: 15px;
+  align-items:center;
+  justify-content:center;
 }
 
 /*
