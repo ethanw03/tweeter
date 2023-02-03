@@ -23,6 +23,8 @@
   align-items: stretch;
   flex-direction: column;
   justify-content: space-between;
+  border: black;
+  border-width: 10px;
 }
 
 .bigBody{
