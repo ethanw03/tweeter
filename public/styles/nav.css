@@ -11,6 +11,7 @@ nav {
   z-index: 1;
   position: sticky;
   top: 0;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
 }
 
 .title{
