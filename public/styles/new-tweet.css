@@ -1,49 +1,49 @@
-#tweetForm{
+#tweetForm {
   display: flex;
   flex-direction: column;
 }
-.buttons{
+.buttons {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-  font-family: 'Bungee';
+  font-family: "Bungee";
 }
-#button{
+#button {
   background-color: #2f59a8;
   color: rgba(255, 255, 255, 0.829);
 }
-#tweet-text{
+#tweet-text {
   opacity: 60%;
   border: none;
   border-bottom: 5px solid black;
 }
 
-.tweet-Container{
+.tweet-Container {
   display: flex;
   align-items: stretch;
   flex-direction: column;
   justify-content: space-between;
-  border:double;
+  border: double;
 }
 
-.bigBody{
-  padding: 20px
+.tweet-body {
+  padding: 20px;
 }
 
-.theTweet{
+.tweet-text {
   border: none;
   padding: 20px;
 }
 
-.header2{
-  display:flex;
+.header2 {
+  display: flex;
   justify-content: space-between;
   font-size: 20px;
   padding: 20px;
 }
 
-.bottom{
-  display:flex;
+.bottom {
+  display: flex;
   justify-content: space-between;
   font-size: 20px;
   padding: 20px;
@@ -58,7 +58,7 @@ article:hover {
 }
 
 #flag:hover {
-  color:wheat;
+  color: wheat;
 }
 
 #like:hover {
@@ -66,40 +66,40 @@ article:hover {
 }
 
 #retweet:hover {
-  color:wheat;
+  color: wheat;
 }
 
-article{
-  border-style:ridge;
+article {
+  border-style: ridge;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
 }
 
-#tweets-Container{
+#tweets-Container {
   padding-top: 20px;
 }
 
-.error{
-  color:red;
-  text-decoration-thickness:initial;
+.error {
+  color: red;
+  text-decoration-thickness: initial;
 }
 
+/* variable display resolutions */
+
 @media (min-width: 1024px) {
-  nav{
-    background-color: #4056A1;
+  nav {
+    background-color: #4056a1;
   }
-  .split{
+  .split {
     display: flex;
     margin-top: 5rem;
-    margin-left: 10rem; 
+    margin-left: 10rem;
   }
-  .header{
-    width:20%;
+  .header {
+    width: 20%;
     background: transparent;
   }
-  .container{
+  .container {
     width: 50%;
     margin-right: 3rem;
   }
 }
-
-
